@@ -1,0 +1,33 @@
+@import './colors';
+
+nav {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0%;
+    position: sticky;
+    background-color: $first;
+    z-index: 10;
+
+    > h1{
+        text-transform: uppercase;
+    }
+    
+    > main{
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+
+        > a{
+            color: $dark;
+            margin: 1rem;
+
+            &:hover{
+color: $third;
+            }
+        }
+    }
+
+}
