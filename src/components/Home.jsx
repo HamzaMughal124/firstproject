@@ -7,7 +7,8 @@ function Home() {
     <>
       <div className='home'>
         <main>
-          <h1>TechStars</h1>
+          <h1>TechStar</h1>
+          <p>Solution to all your problems</p>
         </main>
       </div>
 
