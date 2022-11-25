@@ -1,63 +1,74 @@
-import React from 'react'
-import vg from '../assets/2.webp'
-import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from 'react-icons/ai'
+import React from "react";
+import vg from "../assets/2.webp";
+import { AiFillGoogleCircle, AiFillAmazonCircle, AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 
 function Home() {
   return (
     <>
-    <div className='home'>
+      <div className='home'>
         <main>
-            <h1>TechStar</h1>
-            <p>Solution to all your problems</p>
+          <h1>TechStars</h1>
+          <p>Solution to all your problems</p>
         </main>
-    </div>
+      </div>
 
-    <div className='home2'>
-        <img src={vg} alt="graphics" />
+      <div className='home2'>
+        <img src={vg} alt='graphics' />
         <div>
-            <p>we are your one and only solution to the tech problems you face every day.we are leading tech company whose aim is to increase the problem solving ability in children.</p>
+          <p>
+            we are your one and only solution to the tech problems you face every day.we are leading tech company whose
+            aim is to increase the problem solving ability in children.
+          </p>
         </div>
-    </div>
-    <div className='home3' id='about'>
+      </div>
+      <div className='home3' id='about'>
         <div>
-            <h1>Who we are?</h1>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac leo est. Curabitur arcu libero, ultrices a pretium eget, tincidunt eu orci. Nunc ornare quam porttitor, bibendum justo non, bibendum neque. Nullam porta orci non dui aliquet vestibulum. Sed in varius diam. Donec turpis augue, maximus et dapibus vel, sagittis ut metus. Cras non hendrerit justo. Maecenas luctus nisi vel egestas imperdiet.            </p>
+          <h1>Who we are?</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac leo est. Curabitur arcu libero, ultrices a
+            pretium eget, tincidunt eu orci. Nunc ornare quam porttitor, bibendum justo non, bibendum neque. Nullam
+            porta orci non dui aliquet vestibulum. Sed in varius diam. Donec turpis augue, maximus et dapibus vel,
+            sagittis ut metus. Cras non hendrerit justo. Maecenas luctus nisi vel egestas imperdiet.{" "}
+          </p>
         </div>
-    </div>
-    <div className='home4' id='brands'>
+      </div>
+      <div className='home4' id='brands'>
         <div>
-            <h1>Brands</h1>
-            <article>
-                <div style={{
-                    animationDelay: '0.3s'
-                }}>
-                    <AiFillGoogleCircle />
-                    <p>Google</p>
-                </div>
-                <div style={{
-                    animationDelay: '0.5s'
-                }}>
-                    <AiFillAmazonCircle />
-                    <p>Amazon</p>
-                </div>
-                <div style={{
-                    animationDelay: '0.7s'
-                }}>
-                    <AiFillYoutube />
-                    <p>Youtube</p>
-                </div>
-                <div style={{
-                    animationDelay: '1s'
-                }}>
-                    <AiFillInstagram />
-                    <p>Instagram</p>
-                </div>
-            </article>
+          <h1>Brands</h1>
+          <article>
+            <div
+              style={{
+                animationDelay: "0.3s",
+              }}>
+              <AiFillGoogleCircle />
+              <p>Google</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.5s",
+              }}>
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.7s",
+              }}>
+              <AiFillYoutube />
+              <p>Youtube</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "1s",
+              }}>
+              <AiFillInstagram />
+              <p>Instagram</p>
+            </div>
+          </article>
         </div>
-    </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default Home;
